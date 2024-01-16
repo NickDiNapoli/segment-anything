@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "Segment Anything Model"
 # license = ""
 authors = ["Nick DiNapoli <nick.dinapoli@vizgen.com>"]
-maintainers = ["Vizgen <techsupport@vizgen.com>"]
+maintainers = ["Nick DiNapoli <nick.dinapoli@vizgen.com>"]
 readme = "README.md"
 # homepage = ""
 repository = "https://github.com/NickDiNapoli/segment-anything"
@@ -19,7 +19,7 @@ classifiers = [
 packages = [{ include = "sam", from = "src" }]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.11"
+python = ">=3.9,<=3.11.3"
 
 
 [tool.poetry.group.dev.dependencies]
